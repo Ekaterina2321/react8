@@ -1,0 +1,36 @@
+.header {
+    padding: 30px 0;
+    position: relative;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.nav a {
+    color: #232323;
+}
+
+.nav a:hover {
+    color: #0009EA;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

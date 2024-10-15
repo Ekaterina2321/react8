@@ -1,0 +1,36 @@
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title h2 {
+    text-align: left;
+    font-size: 40px;
+    color: #232323;
+}
+
+.user {
+    width: 450px;
+    color: #232323;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.user:nth-child(2n) {
+    background-color: #0009EA50;
+    color: #fff;
+}
+
+.error {
+    color: rgb(146, 54, 54);
+    font-size: 18px;
+}

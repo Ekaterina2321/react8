@@ -1,0 +1,12 @@
+.btn__about {
+    padding: 10px 20px;
+    background-color: #D9D9D9;
+    font-size: 20px;
+    position: absolute;
+    bottom: 40px;
+    right: 15%;
+}
+
+.btn__about span {
+    color: #0009EA;
+}

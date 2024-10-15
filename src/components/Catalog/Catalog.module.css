@@ -1,0 +1,109 @@
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.catalog__block {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 100px;
+}
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title h2 {
+    text-align: left;
+    font-size: 40px;
+    color: #232323;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.category p {
+    font-size: 18px;
+    color: #232323;
+    font-weight: 500;
+}
+
+.btns {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.btns button {
+    background-color: #fff;
+    color: #0009EA;
+    padding: 5px 15px;
+    box-shadow: 2px 2px 20px 2px #00000010;
+}
+
+button.active {
+    background-color: #0009EA;
+    color: #fff;
+}
+
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.item {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.price__btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item h3 {
+    color: #232323;
+    font-size: 16;
+    font-weight: 500;
+}
+
+.item p {
+    color: #0009EA;
+    font-size: 26px;
+}
+.item p span {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.item button.active {
+    font-size: 20px;
+}
+
+.add__more {
+    display: flex;
+    justify-content: right;
+    margin-top: 40px;
+}
+
+.add__more button {
+    background-color: #E5E5E5;
+    padding: 10px 40px;
+    color: #0009EA;
+    font-size: 20px;
+}
+
+.error {
+    color: rgb(146, 54, 54);
+    font-size: 18px;
+}
